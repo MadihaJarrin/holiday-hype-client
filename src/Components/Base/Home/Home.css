@@ -1,0 +1,14 @@
+.contain img{
+    width:1350px;
+    height: 600px;
+}
+.contain{
+    background:lightcyan ;
+    padding-bottom: 30px;
+}
+.contain h1{
+   padding: 15px;
+   padding-top: 3%;
+   text-shadow: 2px 2px 2px rgb(2, 78, 2);
+   color: rgb(52, 184, 12);
+}

@@ -1,0 +1,29 @@
+
+.contain-sp{
+    margin: 0px 100px;
+   
+}
+.special-container{
+    background-color:lightcyan ;
+    padding-bottom: 5%;
+    padding-top:10px;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+#card{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#card:hover{
+ cursor: pointer;
+ background-color: rgb(249, 255, 252);
+}
+#card{
+ cursor: pointer;
+ background-color: rgb(28, 219, 114);
+ 
+}
+.contain-sp h1{
+    text-shadow: 2px 1px 2px rgb(245, 7, 7);
+    color: blue;
+}

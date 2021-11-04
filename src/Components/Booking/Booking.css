@@ -1,0 +1,33 @@
+.booking-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url("https://bbl.solutions/wp-content/uploads/2014/11/Blog-background-white-HNM-blue-gradient-blue-gear-2.png");
+    /* https://cdn.wallpapersafari.com/46/75/gH1Pzq.png */
+    /* background-repeat: no-repeat; */
+
+}
+.booking-details img{
+    width: 60%;
+    }
+    .booking-details{
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+    .booking-details p{
+text-align: justify;
+    }
+    .booking-confirm{
+        border: 1pc groove rgb(13, 209, 167);
+        padding: 15%;
+    }
+    .add-services form{
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        justify-content: center;
+        align-items: center;
+    }
+    .add-services form input, textarea{
+        width: 100%;
+        margin-bottom: 10px;
+    }

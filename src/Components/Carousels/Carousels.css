@@ -1,0 +1,46 @@
+.service-container{
+    background-image: url("https://t4.ftcdn.net/jpg/02/66/42/71/360_F_266427184_YL8cpv03mP1HHGJRXpEVuvVCbKSZ6OZV.jpg")
+
+    /* background-image: url("https://images.unsplash.com/photo-1614850523060-8da1d56ae167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBsaWdodGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80") */
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen&display=swap');
+#carousel img{
+    height: 550px;
+}
+
+#base{
+  align-items: center;
+  outline: none;
+  border: none;
+}
+.card-body{
+    text-align:center;
+    background-color: lightseagreen;
+    border-radius: 20px;
+}
+#card-text p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+}
+#card-text h1{
+    font-family: 'Lobster', cursive;
+}
+#part2{
+    margin-right:  0px;
+}
+
+.btns{
+      background-color: rgb(221, 8, 8);
+      color: white;
+    outline: none;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.btns:hover{
+    background-color: white;
+    color: black;
+}
