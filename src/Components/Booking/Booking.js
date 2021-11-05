@@ -13,13 +13,13 @@ const Booking = () => {
     const [service, setService] = useState({});
 
     useEffect(() => {
-        fetch(`https://murmuring-brushlands-16915.herokuapp.com/services/${serviceId}`)
+        fetch(`https://infinite-beach-17393.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data));
     })
     const [offers, setOffer] = useState([]);
     useEffect(() => {
-        const url = "https://murmuring-brushlands-16915.herokuapp.com/services";
+        const url = "https://infinite-beach-17393.herokuapp.com/services";
         fetch(url)
             .then(res => res.json())
             .then(data => setOffer(data));
@@ -62,7 +62,7 @@ const Booking = () => {
         });
         console.log(data);
 
-        fetch("https://murmuring-brushlands-16915.herokuapp.com/addOrder", {
+        fetch("https://infinite-beach-17393.herokuapp.com/addOrder", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),

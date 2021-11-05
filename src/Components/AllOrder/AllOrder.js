@@ -8,7 +8,7 @@ const AllOrder = () => {
 
 
     useEffect(() => {
-        const url = `https://murmuring-brushlands-16915.herokuapp.com/allOrder`;
+        const url = `https://infinite-beach-17393.herokuapp.com/allOrder`;
         fetch(url)
             .then(res => res.json())
             .then(data => setAllOrder(data))
@@ -16,7 +16,7 @@ const AllOrder = () => {
 
     //Detele Button
     const handleDelte = (id) => {
-        fetch(`https://murmuring-brushlands-16915.herokuapp.com/deleteOrder/${id}`, {
+        fetch(`https://infinite-beach-17393.herokuapp.com/deleteOrder/${id}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" },
         })

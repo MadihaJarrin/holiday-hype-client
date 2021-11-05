@@ -49,7 +49,7 @@ const Header = () => {
                                     <NavLink className="nav-link active header" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active header" to="/about">About us</NavLink>
+                                    <NavLink className="nav-link active header" to="/contact">About us</NavLink>
                                 </li>
                                 {
                                     user.displayName && <NavLink className="nav-link active header" to="/myorder">My Order</NavLink>

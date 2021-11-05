@@ -5,7 +5,7 @@ import './Products.css'
 const Products = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        const url = `https://murmuring-brushlands-16915.herokuapp.com/services`;
+        const url = `https://infinite-beach-17393.herokuapp.com/services`;
         fetch(url)
             .then(res => res.json())
             .then(data => setServices(data))

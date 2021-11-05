@@ -4,7 +4,10 @@ import './Counter.css';
 const Counter = () => {
     return (
         <div className="counter-cont">
-            <div className="pt-5 pb-5">
+
+            <h1>Nearest Famous Theme Park in our Hotel</h1>
+
+            {/* <div className="pt-5 pb-5">
                 <div className="counter-up">
                     <div className="content">
                         <div className="box">
@@ -29,7 +32,8 @@ const Counter = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
         </div>
     );
 };

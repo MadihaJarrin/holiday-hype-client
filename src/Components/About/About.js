@@ -10,7 +10,7 @@ const About = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('https://murmuring-brushlands-16915.herokuapp.com/services', data)
+        axios.post('https://infinite-beach-17393.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

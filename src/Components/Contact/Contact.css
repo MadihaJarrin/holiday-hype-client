@@ -8,6 +8,11 @@
 #about-cont{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-image: url("https://www.pngmagic.com/product_images/red-vector-background-for-template-design.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 
 }
 .about{
@@ -17,4 +22,18 @@
     width: 70%;
     margin-bottom: 10px;
 }
+.map-cont{
+   /* margin-left: 5%; */
+   /* background-image: url("https://www.pngmagic.com/product_images/red-vector-background-for-template-design.jpg"); */
+   background-repeat: no-repeat;
+   height: 600px;
+   background-position: center;
+   background-size: cover;
+   padding:4%;
+
+}
+.map-cont h2{
+    padding-bottom: 2%;
+}
+
 

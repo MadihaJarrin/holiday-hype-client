@@ -11,13 +11,13 @@ const MyOrder = () => {
     const email = user.email;
     // console.log(email);
     useEffect(() => {
-        fetch(`https://murmuring-brushlands-16915.herokuapp.com/myOrder/${email}`)
+        fetch(`https://infinite-beach-17393.herokuapp.com/myOrder/${email}`)
             .then(res => res.json())
             .then(data => setOrder(data))
     }, [isDeletd]);
 
     const handleDelte = (id) => {
-        fetch(`https://murmuring-brushlands-16915.herokuapp.com/deleteOrder/${id}`, {
+        fetch(`https://infinite-beach-17393.herokuapp.com/deleteOrder/${id}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" },
         })

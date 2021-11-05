@@ -1,5 +1,7 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+import { Button, Carousel } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import caro1 from '../images/caro1.jpg'
 import caro2 from '../images/caro2.jpg'
@@ -18,7 +20,7 @@ import Counter from '../Counter/Counter';
 
 const Carousels = () => {
     return (
-        <div id="carouselExampleCaptions " className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions " className="carousel slide full" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -111,7 +113,49 @@ const Carousels = () => {
             {/* <MyOffering></MyOffering> */}
             <div className="service-container">
                 <Products></Products>
-            </div>            <Counter></Counter>
+            </div>
+            <Counter></Counter>
+
+            <div className="container">
+                <div className="box">
+                    <div className="imgBx">
+                        <img src="https://thecaffeinatedintrovert.com/wp-content/uploads/2019/06/waterpark-683x1024.png" alt="" />
+                    </div>
+                    <div className="content">
+                        <h2>Water Park in Minestona </h2>
+                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                        <p><Link className="btn btn-danger" to="/about">
+                            Contact with us
+                        </Link></p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="imgBx">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinderella_Castle_2013_Wade.jpg/220px-Cinderella_Castle_2013_Wade.jpg" alt="" />
+                    </div>
+                    <div className="content">
+                        <h2>Amazing Theme park</h2>
+                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                        <p><Link className="btn btn-danger" to="/contact">
+                            Contact with us
+                        </Link></p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="imgBx">
+                        <img src="https://energylandia.pl/wp-content/uploads/2019/03/nowosc-1.jpg" alt="" />
+                    </div>
+                    <div className="content">
+                        <h2>Roller Coster</h2>
+                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                        <p><Link className="btn btn-danger" to="/about">
+                            Contact with us
+                        </Link></p>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
             <Special></Special>
             <Home></Home>
         </div>

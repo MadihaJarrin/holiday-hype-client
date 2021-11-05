@@ -1,11 +1,11 @@
-import React from 'react';
+// import React from 'react';
 
-const MyOrderData = () => {
-    return (
-        <div>
+// const MyOrderData = () => {
+//     return (
+//         <div>
 
-        </div>
-    );
-};
+//         </div>
+//     );
+// };
 
-export default MyOrderData;
+// export default MyOrderData;

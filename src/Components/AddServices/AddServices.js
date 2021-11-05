@@ -9,7 +9,7 @@ const AddServices = () => {
 
     const onSubmit = data => {
         console.log(data);
-        axios.post('https://murmuring-brushlands-16915.herokuapp.com/services', data)
+        axios.post('https://infinite-beach-17393.herokuapp.com/services', data)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {
