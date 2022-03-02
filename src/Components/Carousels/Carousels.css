@@ -1,5 +1,5 @@
 .service-container{
-    background-image: url("https://t4.ftcdn.net/jpg/02/66/42/71/360_F_266427184_YL8cpv03mP1HHGJRXpEVuvVCbKSZ6OZV.jpg")
+    /* background-image: url("https://t4.ftcdn.net/jpg/02/66/42/71/360_F_266427184_YL8cpv03mP1HHGJRXpEVuvVCbKSZ6OZV.jpg") */
 
     /* background-image: url("https://images.unsplash.com/photo-1614850523060-8da1d56ae167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBsaWdodGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80") */
 }
@@ -7,6 +7,7 @@
 
 .carousel-inner img{
 	width: 100%;
+	/* height: 100% */
 }
 #base{
   align-items: center;
@@ -161,6 +162,11 @@
     /* background-image: url("https://img3.wallspic.com/originals/9/0/6/1/3/131609-wedding_ring-wedding_dress-ring-jewellery-wedding-1920x1200.jpg"); */
  
 }
-.container{
+/* .container{
     padding-bottom: 4%;
+} */
+.container1{
+	background-color: rgb(232, 241, 243);
+	padding: 3%;
+	margin: 3%;
 }

@@ -10,6 +10,8 @@ import caro4 from '../images/caro4.jpg'
 import caro5 from '../images/caro5.jpg'
 import caro6 from '../images/caro6.jpg'
 import caro7 from '../images/caro7.jpg'
+import caro10 from '../images/caro10.jpeg'
+import caro9 from '../images//caro9.jpeg'
 import './Carousels.css'
 import Special from '../Special/Special';
 import Home from '../Base/Home/Home';
@@ -33,7 +35,7 @@ const Carousels = () => {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={caro7} alt="" />
+                    <img src={caro9} alt="" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Shitakundu in sylhet</h5>
                         <p>Most attractive tourist place in bangladesh</p>
@@ -115,50 +117,56 @@ const Carousels = () => {
             <div className="service-container">
                 <Products></Products>
             </div>
+            <Special></Special>
+
+            <Vision></Vision>
+
             <Counter></Counter>
 
-            <div className="container">
-                <div className="box">
-                    <div className="imgBx">
-                        <img src="https://thecaffeinatedintrovert.com/wp-content/uploads/2019/06/waterpark-683x1024.png" alt="" />
+            <div className="container1">
+                <h1 style={{ fontWeight: 600, color: '#0D305C', marginTop: 50 }}>Nearest Famous Theme Park in our Hotel</h1>
+                <div className="container">
+
+                    <div className="box">
+                        <div className="imgBx">
+                            <img src="https://thecaffeinatedintrovert.com/wp-content/uploads/2019/06/waterpark-683x1024.png" alt="" />
+                        </div>
+                        <div className="content">
+                            <h2>Water Park in Minestona </h2>
+                            <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                            <p><Link className="btn btn-danger" to="/about">
+                                Contact with us
+                            </Link></p>
+                        </div>
                     </div>
-                    <div className="content">
-                        <h2>Water Park in Minestona </h2>
-                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
-                        <p><Link className="btn btn-danger" to="/about">
-                            Contact with us
-                        </Link></p>
+                    <div className="box">
+                        <div className="imgBx">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinderella_Castle_2013_Wade.jpg/220px-Cinderella_Castle_2013_Wade.jpg" alt="" />
+                        </div>
+                        <div className="content">
+                            <h2>Amazing Theme park</h2>
+                            <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                            <p><Link className="btn btn-danger" to="/contact">
+                                Contact with us
+                            </Link></p>
+                        </div>
                     </div>
-                </div>
-                <div className="box">
-                    <div className="imgBx">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinderella_Castle_2013_Wade.jpg/220px-Cinderella_Castle_2013_Wade.jpg" alt="" />
+                    <div className="box">
+                        <div className="imgBx">
+                            <img src="https://energylandia.pl/wp-content/uploads/2019/03/nowosc-1.jpg" alt="" />
+                        </div>
+                        <div className="content">
+                            <h2>Roller Coster</h2>
+                            <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
+                            <p><Link className="btn btn-danger" to="/about">
+                                Contact with us
+                            </Link></p>
+                        </div>
                     </div>
-                    <div className="content">
-                        <h2>Amazing Theme park</h2>
-                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
-                        <p><Link className="btn btn-danger" to="/contact">
-                            Contact with us
-                        </Link></p>
-                    </div>
-                </div>
-                <div className="box">
-                    <div className="imgBx">
-                        <img src="https://energylandia.pl/wp-content/uploads/2019/03/nowosc-1.jpg" alt="" />
-                    </div>
-                    <div className="content">
-                        <h2>Roller Coster</h2>
-                        <small>The equipment has been exported to more than 30 countries and regions in Southeast Asia, Central Asia, West Asia, Middle East, Europe, Africa and South America.</small>
-                        <p><Link className="btn btn-danger" to="/about">
-                            Contact with us
-                        </Link></p>
-                    </div>
-                </div>
-                <div>
+                    {/* <div>
+                </div> */}
                 </div>
             </div>
-            <Special></Special>
-            <Vision></Vision>
             <Home></Home>
         </div>
 

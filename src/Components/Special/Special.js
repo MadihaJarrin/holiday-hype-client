@@ -5,7 +5,7 @@ const Special = () => {
     return (
         <div className="special-container">
             <div className="contain-sp">
-                <h1 className="mt-5">Our Special Features For You</h1>
+                <h1 style={{ fontWeight: 600, color: '#0D305C', marginTop: 40 }} className="mt-5">Our Special Features For You</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-3">
                     <div className="col" id="card">
                         <i className="fas fa-broom"></i>
@@ -50,6 +50,22 @@ const Special = () => {
                     <div className="col" id="card">
                         <i class="fas fa-leaf"></i>
                         <p className="fw-bolder">Roof-top garden</p>
+                    </div>
+                    <div className="col" id="card">
+                        <i class="fas fa-wind"></i>
+                        <p className="fw-bolder">Full Temperature controlled</p>
+                    </div>
+                    <div className="col" id="card">
+                        <i class="fas fa-gamepad"></i>
+                        <p className="fw-bolder">Indoor Playground</p>
+                    </div>
+                    <div className="col" id="card">
+                        <i class="fas fa-leaf"></i>
+                        <p className="fw-bolder">Roof-top garden</p>
+                    </div>
+                    <div className="col" id="card">
+                        <i class="fas fa-wind"></i>
+                        <p className="fw-bolder">Full Temperature controlled</p>
                     </div>
                     <div className="col" id="card">
                         <i class="fas fa-wind"></i>

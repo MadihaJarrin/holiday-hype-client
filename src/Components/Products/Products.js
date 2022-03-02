@@ -12,7 +12,7 @@ const Products = () => {
     })
     return (
         <div className="product-container">
-            <h1 >Our popular Offering services</h1>
+            <h1 style={{ fontWeight: 600, color: '#0D305C', marginTop: 50 }} >Our popular Offering services</h1>
             <div id="msr">
                 {
                     services.map(service => <Oservices

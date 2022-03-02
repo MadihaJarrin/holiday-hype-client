@@ -51,7 +51,7 @@ const itemData = [
 const Vision = () => {
     const color = grey[50];
     return (
-        <Box sx={{ flexGrow: 1, mt: 10, mb: 10, bgcolor: color }}>
+        <Box sx={{ flexGrow: 1, mt: 4, mb: 0, bgcolor: color }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
                     <Typography>
@@ -79,7 +79,7 @@ const Vision = () => {
                     <Box  >
                         <Typography variant='h5' style={{ fontWeight: 400, color: '#0D305C' }} >
 
-                            <HomeIcon fontSize="large" color="success" />
+                            <HomeIcon fontSize="large" color="info" />
                             Vision
                         </Typography>
                         <Typography variant='h4' sx={{ textTransform: 'uppercase' }} style={{ fontWeight: 600, color: '#0D305C', marginTop: 50 }}>
@@ -87,10 +87,10 @@ const Vision = () => {
                         </Typography>
                         <Typography style={{
                             borderWidth: '8px',
-                            borderBottomStyle: 'double', borderColor: '#2B8618',
+                            borderBottomStyle: 'double', borderColor: '#1592C3',
                             marginTop: 20,
                             marginBottom: 20,
-                            width: 250
+                            width: 200
                         }}>
 
                         </Typography>

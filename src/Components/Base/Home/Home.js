@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import homeImage from '../../../Components/images/pexels-photo-6140470.jpeg'
+import homeImage from '../../../Components/images/pexels-photo-7336101.jpeg'
 import './Home.css'
 
 

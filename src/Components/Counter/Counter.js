@@ -5,7 +5,7 @@ const Counter = () => {
     return (
         <div className="counter-cont">
 
-            <h1>Nearest Famous Theme Park in our Hotel</h1>
+            {/* <h1>Nearest Famous Theme Park in our Hotel</h1> */}
 
             {/* <div className="pt-5 pb-5">
                 <div className="counter-up">
