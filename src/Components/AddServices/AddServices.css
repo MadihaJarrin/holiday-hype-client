@@ -9,13 +9,13 @@
     margin-bottom: 10px;
 } */
 .addService{
-    background-color: rgb(164, 231, 164);
+    background-color: rgb(236, 243, 236);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 
-    box-shadow: inset 5em 1em rgb(255, 252, 89);
+    box-shadow: inset 5em 1em rgb(238, 238, 230);
 }
 .addService form{
     margin: 3%;
