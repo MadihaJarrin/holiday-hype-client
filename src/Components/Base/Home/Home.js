@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import homeImage from '../../../Components/images/pexels-photo-6140470.jpeg'
 import './Home.css'
 
 
@@ -8,7 +9,7 @@ const Home = () => {
         <div>
 
             <div className="contain">
-                <img className="border border-primary img-fluid" src="https://buckinghaminvestmentllc.com/wp-content/uploads/2021/02/Dubai-J.jpg" alt="Snow" />
+                <img className="border border-primary img-fluid" src={homeImage} alt="Snow" />
                 <div className="centered">
                     {/* <h1>Do you need our service ??</h1> */}
                     <h1>We are here to give you our best service</h1>

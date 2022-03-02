@@ -16,6 +16,7 @@ import Home from '../Base/Home/Home';
 import MyOffering from '../Base/MyOffering/MyOffering';
 import Products from '../Products/Products';
 import Counter from '../Counter/Counter';
+import Vision from '../Base/Home/Vision/Vision';
 // import Home from '../Base/Home';
 
 const Carousels = () => {
@@ -108,7 +109,7 @@ const Carousels = () => {
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden">Previous</span>
             </button>
             {/* <MyOffering></MyOffering> */}
             <div className="service-container">
@@ -157,6 +158,7 @@ const Carousels = () => {
                 </div>
             </div>
             <Special></Special>
+            <Vision></Vision>
             <Home></Home>
         </div>
 
